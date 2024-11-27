@@ -1,0 +1,42 @@
+html {
+    color: darkslategray;
+    font-family: 'arial', 'sans-serif';
+    font-size: 17px;
+}
+.text-center {
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    color: darkblue;
+}
+
+h2{
+    font-size: 24px;
+    background-color: lightskyblue;
+    color: darkblue;
+}
+a, a:visited{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#copyright {
+    font-style: italic;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkblue;
+    
+}
+h2 a, h2 a:visited{
+    color: lightskyblue;
+}
+h2:hover a{
+    color: darkblue;
+}
+h1 a {
+    color: white;
+}
