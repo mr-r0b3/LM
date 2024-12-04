@@ -1,42 +1,116 @@
-html {
-    color: darkslategray;
-    font-family: 'arial', 'sans-serif';
-    font-size: 17px;
-}
-.text-center {
-    text-align: center;
-}
-h1{
-    font-size: 30px;
-    text-align: center;
-    color: darkblue;
+body {
+  color: darkslategrey;
+  font-family: arial, sans-serif;
+  font-size: 17px;
 }
 
-h2{
-    font-size: 24px;
-    background-color: lightskyblue;
-    color: darkblue;
-}
-a, a:visited{
-    color: darkblue;
-    text-decoration: none;
+.text-center {
+  text-align: center;
 }
 
 #copyright {
-    font-style: italic;
-    font-weight: bold;
+  font-weight: bold;
+  font-style: italic;
 }
-a:hover{
-    text-decoration: underline;
-    color: darkblue;
-    
+
+h1 {
+  font-size: 30px;
+  font-family: "Audiowide";
 }
-h2 a, h2 a:visited{
-    color: lightskyblue;
+
+h2 {
+  font-size: 24px;
+  background-color: lightskyblue;
+  border-radius: 5px;
 }
-h2:hover a{
-    color: darkblue;
+
+h1,
+h2,
+a,
+a:visited {
+  color: darkblue;
 }
-h1 a {
+
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+h1 a,
+h1 a:visited {
+  color: white;
+}
+h2 a,
+h2 a:visited {
+  color: lightskyblue;
+}
+h1:hover a,
+h2:hover a {
+  color: darkblue;
+}
+p,
+i.material-icons {
+  line-height: 1.5rem;
+}
+i.material-icons {
+  font-size: 1rem;
+}
+
+.material-icons {
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px; /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: "liga";
+}
+.btn:hover {
+  color: white;
+  background-color: darkblue;
+  text-decoration: none;
+}
+#social {
+  text-align: center;
+}
+#social a {
+  font-size: 2rem;
+}
+#face {
+  color: navy;
+}
+#tw {
+  color: dodgerblue;
+}
+@media print {
+  body,
+  h1 {
+    color: black;
+    font-family: Times, serif;
+  }
+  h2 {
+    background-color: unset;
+  }
+  h2,
+  a.topo {
     color: white;
+  }
 }
